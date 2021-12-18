@@ -1,0 +1,5 @@
+---
+ - hosts: all
+   tasks:
+    - yum:
+      content: install java openjdk-8*
